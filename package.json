@@ -1,0 +1,27 @@
+{
+  "name": "optic-demo",
+  "version": "1.0.0",
+  "description": "Demo repository for optic app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearform/optic-demo.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sameer Srivastava",
+    "email": "sameer.srivastava@nearform.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nearform/optic-demo/issues"
+  },
+  "homepage": "https://github.com/nearform/optic-demo#readme",
+  "dependencies": {
+    "fastify": "^3.27.0"
+  }
+}
