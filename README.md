@@ -9,8 +9,8 @@ Optic is an ecosystem of a mobile application, GitHub action, and backend applic
 In a nutshell, Optic works by automating the build and versioning process, as well as publishing Npm packages. It does all that without compromising the security. Publishing an Npm package requires you to authenticate using a publish token issued by Npm. These tokens are used when publishing packages using the Npm CLI. An OTP is required for the publishing process if you also have (2FA) enabled.
 
 # Steps to configure the workflow
-Install the optic-release-automation GitHub app to your organization (or selected repositories)
-Create a new workflow file at .github/workflows/release.yml (from example below) with one step that uses this action and supply the inputs.
+- Install the optic-release-automation GitHub app to your organization (or selected repositories)
+- Create a new workflow file at .github/workflows/release.yml (from example below) with one step that uses this action and supply the inputs.
 
 # What does it do?
 - When run, it opens a new PR for the release.
