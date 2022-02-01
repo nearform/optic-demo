@@ -1,6 +1,6 @@
 # Optic Demo
 
-This is a demo of how to automatically publish npm packages to the npm registry using GitHub Actions and Optic.
+This is a demo of how to automatically publish Npm packages to the Npm registry using GitHub Actions and Optic.
 
 # What is Optic?
 Optic is an ecosystem of a mobile application, GitHub action, and backend application. The mobile app stores Npm secrets, generates OTPs, and sends push notifications. The GitHub action triggers the deployment workflow. Backend server stores app subscriptions and generates Optic tokens.
@@ -39,7 +39,7 @@ on:
           - minor
           - major
       tag:
-        description: "The npm tag"
+        description: "The Npm tag"
         required: false
         default: "latest"
       commit-message:
@@ -56,7 +56,7 @@ jobs:
       - uses: nearform/optic-release-automation-action@v2
         with:
           github-token: ${{ secrets.github_token }}
-          npm-token: ${{ secrets.NPM_TOKEN }}
+          Npm-token: ${{ secrets.NPM_TOKEN }}
           optic-token: ${{ secrets.OPTIC_TOKEN }}
           semver: ${{ github.event.inputs.semver }}
 ```
